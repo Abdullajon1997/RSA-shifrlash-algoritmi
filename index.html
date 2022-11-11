@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">RSA Algoritm:</h1>
+    <h2 style="text-align: center;">HTML && CSS && Javascript</h2>
+    <hr>
+    <table class="center">
+        <tr>
+            <td>Enter P:</td>
+            <td><input type="tel" value="53" id="p"></td>
+        </tr>
+        <tr>
+            <td>Enter Q :</td>
+            <td><input type="tel" value="59" id="q"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Enter the Message:<br>[A=1, B=2,...]</td>
+            <td><input type="number" value="89" id="msg"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Public Key(N):</td>
+            <td>
+                <p id="publickey(N)"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Exponent(e):</td>
+            <td>
+                <p id="exponent(e)"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Private Key(d):</td>
+            <td>
+                <p id="privatekey(d)"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Cipher Text(c):</td>
+            <td>
+                <p id="ciphertext(ct)"></p>
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="RSA();">Apply RSA</button></td>
+        </tr>
+    </table>
+
+    
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
